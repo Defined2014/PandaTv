@@ -2,6 +2,7 @@
 #coding=utf8
 
 import PandaTv
+import Dbconnect
 import httplib2
 import urllib.request
 import json
@@ -14,6 +15,7 @@ from PyQt5 import QtWidgets,QtGui
 
 class Window(QtWidgets.QMainWindow):
     def __init__(self, parent = None):
+        self.conn=Dbconnect.createcon()
         QtWidgets.QWidget.__init__(self, parent)
 
         main_ground = QtWidgets.QWidget()
@@ -28,9 +30,9 @@ class Window(QtWidgets.QMainWindow):
         self.Qbarrage.setReadOnly(True)
 
         roomid=PandaTv.getfollow()
-        l=len(roomid)
-        if(l>4):
-            l=4
+        l=len(roomid)+1
+        if(l>5):
+            l=5
             roomid=roomid[0:4]
 
         grid = QtWidgets.QGridLayout()
@@ -50,8 +52,8 @@ class Window(QtWidgets.QMainWindow):
                 f.close()  
             self.testlable = QtWidgets.QLabel()
             self.testlable.setPixmap(QtGui.QPixmap(name))
-            grid2.addWidget(self.testlable,l//2+2+j//2*2,j%2)
-            grid2.addWidget(QtWidgets.QLabel(i['name']+" <font color=\"red\">房间号</font>： "+i['roomid']),l//2+3+j//2*2,j%2)
+            grid2.addWidget(self.testlable,2+j//2*2,j%2)
+            grid2.addWidget(QtWidgets.QLabel(i['name']+" <font color=\"red\">房间号</font>： "+i['roomid']),3+j//2*2,j%2)
             j=j+1
         grid.addWidget(QtWidgets.QLabel("请输入房间号:"),l//2+3,0)
         grid.addWidget(self.QroomId,l//2+3,1)
@@ -74,16 +76,24 @@ class Window(QtWidgets.QMainWindow):
                 self.thread=MyThread()
                 self.thread.start()
                 self.thread.trigger.connect(self.updateProgress,Qt.QueuedConnection)
+                self.thread.trig.connect(self.updateProgress1,Qt.QueuedConnection)
             elif(int(status)==3):
                 self.Qbarrage.append("主播尚未开播")
         else:
         	self.Qbarrage.setText("请输入数字")
 
-    @pyqtSlot(str) 
-    def updateProgress(self, value): 
-        self.Qbarrage.append(value) 
+    @pyqtSlot(dict)
+    def updateProgress1(self, value): 
+        jr=value
+        Dbconnect.insertdanmu(self.conn,jr)
+        self.Qbarrage.append("<font color=\"red\">"+jr["data"]["from"]["nickName"]+"</font>:"+jr["data"]["content"]) 
+
+    @pyqtSlot(str)
+    def updateProgress(self, value):
+        self.Qbarrage.append(value)
 
 class MyThread(QThread):
+    trig = pyqtSignal(dict)
     trigger = pyqtSignal(str)
     flag=1
 
