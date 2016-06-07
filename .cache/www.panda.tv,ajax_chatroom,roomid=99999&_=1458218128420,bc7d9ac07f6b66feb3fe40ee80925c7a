@@ -1,0 +1,15 @@
+status: 200
+keep-alive: timeout=15
+date: Thu, 17 Mar 2016 12:35:46 GMT
+x-powered-by: PANDA-HPS
+content-length: 125
+connection: keep-alive
+access-control-max-age: 86400
+access-control-allow-origin: http://www.panda.tv
+server: nginx
+content-type: application/json
+access-control-allow-methods: GET, POST
+access-control-allow-credentials: true
+content-location: http://www.panda.tv/ajax_chatroom?roomid=99999&_=1458218128420
+
+{"errno":0,"data":{"sign":"02240240b2ecd1e7db713d42f275cfc5","roomid":99999,"rid":-72167477,"ts":1458218146373},"errmsg":""}

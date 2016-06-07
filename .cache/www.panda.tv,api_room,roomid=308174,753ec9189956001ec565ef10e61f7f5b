@@ -1,0 +1,17 @@
+status: 200
+content-location: http://www.panda.tv/api_room?roomid=308174
+x-powered-by: PHP/5.6.17
+set-cookie: aliyungf_tc=AQAAAGSolzfJzQgAGaCdt6EhOQ1hc5lh; Path=/; HttpOnly
+access-control-allow-origin: http://www.panda.tv
+access-control-allow-methods: GET, POST
+content-type: text/html; charset=UTF-8
+vary: Accept-Encoding
+-content-encoding: gzip
+content-length: 1951
+access-control-allow-credentials: true
+access-control-max-age: 86400
+connection: keep-alive
+date: Mon, 28 Mar 2016 06:50:10 GMT
+-varied-accept-encoding: gzip, deflate
+
+{"errno":0,"errmsg":"","data":{"hostinfo":{"rid":28129882,"name":"Mc\u9633\u9633","avatar":"http:\/\/i4.pdim.gs\/t01c68b8a60e949ca92.png","bamboos":"4226811"},"roominfo":{"id":"308174","name":"\u4eca\u5929\u5c31\u76f4\u64ad\u4e00\u5c0f\u65f6\u5427","type":"1","bulletin":"","details":"<p><br><\/p><p>QQ\u7fa4\uff1a538298591<img src=\"http:\/\/img.baidu.com\/hi\/jx2\/j_0011.gif\">\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0\u00a0<\/p><p><br><\/p><p>\u76f4\u64ad\u65f6\u95f4\u6bb5\uff1a12\u70b9\u20146\u70b9<\/p><p><br><\/p><p>\u8c22\u8c22\u5927\u5bb6\u7684\u652f\u6301\uff0c\u4e48\u4e48\u54d2<\/p><p style=\"text-align: center;\"><img src=\"http:\/\/i6.pdim.gs\/c7b977f799353d7d1a59d5542fad3d88.jpeg\" title=\"c7b977f799353d7d1a59d5542fad3d88.jpeg\" alt=\"psbCAU5J3KH.jpg\"><img src=\"http:\/\/i5.pdim.gs\/fe4a2e020c43f51f0ae48f4c9f3feccf.jpeg\" title=\"fe4a2e020c43f51f0ae48f4c9f3feccf.jpeg\" alt=\"psbCA57ALNC.jpg\"><img src=\"http:\/\/i5.pdim.gs\/d034f8305e1f495f332be553ac24fcdd.jpeg\" title=\"d034f8305e1f495f332be553ac24fcdd.jpeg\" alt=\"psbCAOEOTP1.jpg\"><img src=\"http:\/\/i5.pdim.gs\/72b2815ce7a71074387b4464bd615398.jpeg\" title=\"72b2815ce7a71074387b4464bd615398.jpeg\" alt=\"psbCA52QSK9.jpg\"><\/p>","person_num":"34984","classification":"\u5a31\u4e50\u8054\u840c","fans":"40732","speak_interval":"3","banned_reason":"\u76f4\u64ad\u975e\u718a\u732bTV\u7248\u6743\u6240\u6709\u7684\u5185\u5bb9\uff08\u89c6\u9891\u3001\u6bd4\u8d5b\u7b49\uff09","status":"2","unlock_time":"0","watermark_switch":"1","watermark_loc":"2","cate":"yzdr","remind_content":"","remind_time":"0","remind_status":"0"},"videoinfo":{"name":"dota","time":"441125","stream_addr":{"HD":"0","OD":"0","SD":"1"},"room_key":"7c2cc717fc82238d9276cdb3eee00582","plflag":"2_3","status":"2"},"chatinfo":[],"userinfo":{"rid":-51342013,"is_followed":"0","sp_identity":"","gf_room_msg":1,"gf_plat_msg":1,"sd_chat_msg":0,"sd_chat_gift":0,"sd_flash_gift":0}}}

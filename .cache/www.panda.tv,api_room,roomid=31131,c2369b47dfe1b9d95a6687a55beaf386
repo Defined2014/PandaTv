@@ -1,0 +1,17 @@
+status: 200
+connection: keep-alive
+content-location: http://www.panda.tv/api_room?roomid=31131
+content-length: 2857
+access-control-allow-methods: GET, POST
+-content-encoding: gzip
+x-powered-by: PHP/5.6.17
+set-cookie: aliyungf_tc=AQAAAKe4GTXEEA4ALaCdt8SGW3AC1XU1; Path=/; HttpOnly
+content-type: text/html; charset=UTF-8
+access-control-max-age: 86400
+vary: Accept-Encoding
+access-control-allow-origin: http://www.panda.tv
+access-control-allow-credentials: true
+date: Tue, 07 Jun 2016 04:59:28 GMT
+-varied-accept-encoding: gzip, deflate
+
+{"errno":0,"errmsg":"","data":{"hostinfo":{"rid":3010054,"name":"Sol\u541b","avatar":"http:\/\/i0.pdim.gs\/t018da9d39136b12ad9.jpg","bamboos":"35838278"},"roominfo":{"id":"31131","name":"Sol\u7684\u76f4\u64ad\u95f4","type":"1","bulletin":"\u76f4\u64ad\u65f6\u95f4\u6bcf\u592921:00-02:00\uff0c\u4e3b\u64ad\u662f\u8457\u540d\u97f3\u4e50\u683c\u6597\u6e38\u620f\u73a9\u5bb6\u3002","details":"<p><span style=\"color: rgb(0, 176, 240);font-size: 20px;\">\u4e3b\u64ad\u5404\u79cd\u793e\u4ea4\u8f6f\u4ef6\u7684ID\uff1a<\/span><span style=\"color: rgb(0, 0, 0);\"><br>\u767e\u5ea6\u8d34\u5427ID\uff1aSol\u541b<br>NGA ID\uff1a\u5927\u7237\u770b\u597d\u4f60<br>\u5fae\u535a\uff1a\u6740\u610fSol\u541b_655<br>\u4f18\u9177\uff1aSol\u541b<\/span><\/p><p><span style=\"color: rgb(0, 0, 0);\"><br><\/span><\/p><p><span style=\"font-size: 18px;color: rgb(0, 176, 240);\">\u7fa4\u53f7<\/span><span style=\"color: rgb(0, 176, 240);\">\uff1a<\/span><span style=\"color: rgb(0, 0, 0);\"><\/span><\/p><p><span style=\"color: rgb(0, 0, 0);\">341668614\uff1b376164055\uff1b298845816\uff1b108566152\uff1b365574311<\/span><\/p><p><span style=\"color: rgb(0, 0, 0);\"><span style=\"color: rgb(0, 176, 240);font-size: 20px;\"><br><\/span><\/span><\/p><p><span style=\"color: rgb(0, 0, 0);\"><span style=\"color: rgb(0, 176, 240);font-size: 20px;\">\u9519\u8fc7\u4e86\u76f4\u64ad\u7cbe\u5f69\u5185\u5bb9\u7684\u89c2\u4f17\u4e5f\u53ef\u4ee5\u5230\u6211\u7684\u89c6\u9891\u7a7a\u95f4\u53bb\u770b<\/span><span style=\"color: rgb(0, 176, 240);\">\uff1a<\/span><br>\u4f18\u9177\uff1ahttp:\/\/i.youku.com\/u\/UMTU2NzE3MjE2MA==<br>ACFUN\uff1ahttp:\/\/www.acfun.tv\/u\/627635.aspx#area=post-history<\/span><\/p><p><br><\/p><p><span style=\"color: rgb(0, 176, 240);font-size: 20px;\">\u4e3b\u64ad\u73a9\u7684\u4e00\u4e9b\u6e38\u620f\uff1a<\/span><br><\/p><p><img alt=\"QQ\u622a\u56fe20151003195907.png\" src=\"http:\/\/i0.pdim.gs\/t015caa4ed08d2f2880.png\" title=\"t015caa4ed08d2f2880.png\"><\/p>","person_num":"0","classification":"\u7089\u77f3\u4f20\u8bf4","fans":"311671","speak_interval":"3","banned_reason":"","status":"2","unlock_time":"0","watermark_switch":"2","watermark_loc":"1","cover_status":"2","cover_timestamp":1465275567,"cover_reason":"","account_status":"1","pictures":{"img":"http:\/\/i5.pdim.gs\/45\/2608ae5553abf17613bbb36f05f70e54\/w338\/h190.jpg","qrcode":"http:\/\/i8.pdim.gs\/e8724f04b6854d693578975eacceb2a8.png"},"start_time":"1465222019","end_time":"1465236573","cate":"hearthstone","remind_content":"","remind_time":"0","remind_status":"0"},"videoinfo":{"name":"dota","time":"53549","stream_addr":{"HD":"1","OD":"0","SD":"1"},"room_key":"9b4577270f51c9caf50609fdd1d89476","plflag":"5_10","status":"3"},"chatinfo":[],"userinfo":{"rid":-49145487,"is_followed":"0","sp_identity":"0","gf_room_msg":1,"gf_plat_msg":1,"sd_chat_msg":0,"sd_chat_gift":0,"sd_flash_gift":0}}}

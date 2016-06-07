@@ -1,0 +1,17 @@
+status: 200
+connection: keep-alive
+content-location: http://www.panda.tv/api_room?roomid=99999
+content-length: 1276
+access-control-allow-methods: GET, POST
+-content-encoding: gzip
+x-powered-by: PHP/5.6.17
+set-cookie: aliyungf_tc=AQAAAKDHNgvS0AMALaCdt2SBdkXHUa3S; Path=/; HttpOnly
+content-type: text/html; charset=UTF-8
+access-control-max-age: 86400
+vary: Accept-Encoding
+access-control-allow-origin: http://www.panda.tv
+access-control-allow-credentials: true
+date: Tue, 07 Jun 2016 04:59:28 GMT
+-varied-accept-encoding: gzip, deflate
+
+{"errno":0,"errmsg":"","data":{"hostinfo":{"rid":22961968,"name":"Zhou\u9648\u5c27","avatar":"http:\/\/i3.pdim.gs\/t012938edf73a3642e3.png","bamboos":"30264593"},"roominfo":{"id":"99999","name":"\u6625\u5b63\u8d5b\u5168\u7a0b\u89e3\u8bf4~","type":"1","bulletin":" \u2014\u2014\u2014\u7c89\u4e1d\u2461\u7fa4\uff1a252891820\u2014\u2014\uff1b \u65b0\u6d6a\u5fae\u535a\uff1aweibo.com\/zhoudota2","details":"","person_num":"0","classification":"DOTA2","fans":"222523","speak_interval":"3","banned_reason":"","status":"2","unlock_time":"0","watermark_switch":"2","watermark_loc":"1","cover_status":"2","cover_timestamp":1465275568,"cover_reason":"","account_status":"1","pictures":{"img":"http:\/\/i6.pdim.gs\/45\/827ba344569423187e852bd637b2fa13\/w338\/h190.jpg","qrcode":"http:\/\/i9.pdim.gs\/c1ed079151b5405a4217011e83f337ab.png"},"start_time":"1465208129","end_time":"1465228419","cate":"dota2","remind_content":"","remind_time":"0","remind_status":"0"},"videoinfo":{"name":"dota","time":"67439","stream_addr":{"HD":"1","OD":"0","SD":"1"},"room_key":"f658e1e9081b9b25acfcd30216d37d8a","plflag":"5_10","status":"3"},"chatinfo":[],"userinfo":{"rid":-12131538,"is_followed":"0","sp_identity":"0","gf_room_msg":1,"gf_plat_msg":1,"sd_chat_msg":0,"sd_chat_gift":0,"sd_flash_gift":0}}}

@@ -1,0 +1,14 @@
+status: 200
+-content-encoding: gzip
+content-length: 204
+content-type: text/html
+date: Mon, 06 Jun 2016 13:01:51 GMT
+x-powered-by: PHP/5.3.28
+keep-alive: timeout=15
+vary: Accept-Encoding
+connection: keep-alive
+server: nginx
+content-location: http://api.homer.panda.tv/chatroom/getinfo?rid=-88462564&roomid=99999&retry=0&sign=7d7a356bc4a9cceb0eebb32cf3d3f4c9&ts=1465218111663&_=1465218007188
+-varied-accept-encoding: gzip, deflate
+
+{"errno":0,"errmsg":"","data":{"rid":-88462564,"appid":"364352055","chat_addr_list":["180.163.220.78:443","180.163.220.79:80"],"ts":1465218111717,"sign":"d27ff6616bb84cdcba159531303e2977","authType":"3"}}

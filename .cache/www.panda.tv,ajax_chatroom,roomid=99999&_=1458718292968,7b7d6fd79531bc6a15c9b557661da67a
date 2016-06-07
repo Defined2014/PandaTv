@@ -1,0 +1,14 @@
+status: 200
+access-control-max-age: 86400
+access-control-allow-credentials: true
+date: Wed, 23 Mar 2016 07:31:59 GMT
+content-length: 125
+set-cookie: aliyungf_tc=AQAAAJ2ZqHHgvAsAGKCdtxguZ9097dse; Path=/; HttpOnly
+x-powered-by: PANDA-HPS
+content-type: application/json
+content-location: http://www.panda.tv/ajax_chatroom?roomid=99999&_=1458718292968
+connection: keep-alive
+access-control-allow-methods: GET, POST
+access-control-allow-origin: http://www.panda.tv
+
+{"errno":0,"data":{"sign":"a74c42432efbf7aa3bf414f131f634f4","roomid":99999,"rid":-76417003,"ts":1458718319783},"errmsg":""}

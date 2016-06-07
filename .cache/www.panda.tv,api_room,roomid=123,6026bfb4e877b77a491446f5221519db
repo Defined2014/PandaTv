@@ -1,0 +1,17 @@
+status: 200
+set-cookie: aliyungf_tc=AQAAAA4vfk+pfQgAGaCdtyLh44UA0udm; Path=/; HttpOnly
+access-control-allow-credentials: true
+-content-encoding: gzip
+content-type: text/html; charset=UTF-8
+access-control-allow-origin: http://www.panda.tv
+access-control-max-age: 86400
+date: Mon, 28 Mar 2016 06:37:32 GMT
+content-length: 52
+content-location: http://www.panda.tv/api_room?roomid=123
+connection: keep-alive
+access-control-allow-methods: GET, POST
+x-powered-by: PHP/5.6.17
+vary: Accept-Encoding
+-varied-accept-encoding: gzip, deflate
+
+{"errno":100,"errmsg":"room not exists","data":"{}"}
