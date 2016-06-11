@@ -9,7 +9,11 @@ import re
 
 #def getstatus(res):
 
+<<<<<<< HEAD
 cookie="__guid=96554777.4045433162404690000.1446996221469.9644; R=r%3D28801574%26u%3DCnaqnGi28801574%26n%3DQrsvarq2014%26le%3D%26m%3DZGHkAwpkBGDmZQV%3D%26im%3DnUE0pPHmDFHlEvHlEzx0YaOxnJ0hM3ZyZxM0ZQRlZTWvLzH4LGqxZ2R5ZQZ1YzcjMj%3D%3D; M=t%3D1465205632%26v%3D1.0%26mt%3D1465205632%26s%3D27cd1cbe3a410c16328aee9f0183a1fb; aliyungf_tc=AQAAADau+X+pMgIAFKCdtzGru66YEWI2; monitor_count=3; Hm_lvt_204071a8b1d0b2a04c782c44b88eb996=1465201402,1465202979,1465214794,1465646537; Hm_lpvt_204071a8b1d0b2a04c782c44b88eb996=1465646822" #复制cookie到这
+=======
+#cookie="" #复制cookie到这
+>>>>>>> 4b3e2163bff3d2421b3151f11736aa335cf6622e
 
 def getfollow():
     url="http://www.panda.tv/myfollow"
